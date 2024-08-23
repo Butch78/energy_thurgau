@@ -1,0 +1,919 @@
+{
+    "help": "https://ckan.opendata.swiss/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "license_title": null,
+        "maintainer": "OGD-Koordinationsstelle Kanton Thurgau",
+        "issued": "2020-06-29T00:00:00",
+        "title_for_slug": "gesamtenergieverbrauch-nach-energietragern-ebene-kanton",
+        "qualified_relations": [],
+        "private": false,
+        "maintainer_email": "ogd@tg.ch",
+        "num_tags": 20,
+        "contact_points": [
+            {
+                "email": "ogd@tg.ch",
+                "name": "OGD-Koordinationsstelle Kanton Thurgau"
+            }
+        ],
+        "keywords": {
+            "fr": [],
+            "de": [
+                "energieverbrauch",
+                "elektrizitat",
+                "energiestatistik",
+                "sonne",
+                "biomasse",
+                "erdol",
+                "gesamtenergieverbrauch",
+                "verkehr",
+                "fernwarme",
+                "umweltwarme",
+                "biogas",
+                "energietrager",
+                "holzenergie",
+                "landwirtschaft",
+                "gebaude",
+                "abfall",
+                "erdgas",
+                "gewerbe",
+                "industrie",
+                "abwarme"
+            ],
+            "en": [],
+            "it": []
+        },
+        "temporals": [],
+        "id": "037c082d-f03a-4f10-b057-0af42671356c",
+        "metadata_created": "2022-02-28T11:05:50.715418",
+        "documentation": [],
+        "conforms_to": [],
+        "metadata_modified": "2024-08-22T11:10:48.944677",
+        "author": null,
+        "author_email": null,
+        "isopen": false,
+        "relations": [
+            {
+                "url": "https://energie.tg.ch",
+                "label": "https://energie.tg.ch"
+            }
+        ],
+        "state": "active",
+        "version": null,
+        "relationships_as_object": [],
+        "license_id": null,
+        "see_alsos": [],
+        "type": "dataset",
+        "resources": [
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/jsonld",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "2171a9c8-8ab5-4563-ab4d-1647bf579277",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "jsonld",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "jsonld",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/jsonld",
+                "state": "active",
+                "media_type": "",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (jsonld)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "JSON-LD",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "jsonld",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": "application/ld+json",
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2023-08-31T11:02:11.309405",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/jsonld",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 0,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/fgb",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "163db56a-fa4b-41e8-8832-ce3aa1212b25",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "fgb",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "fgb",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/fgb",
+                "state": "active",
+                "media_type": "",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (fgb)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "fgb",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": "application/octet-stream",
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2023-08-31T11:02:11.309400",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/fgb",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 1,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/parquet",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "68bb6cfa-9161-4b22-b29d-b4f8e11f5189",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "parquet",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "parquet",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/parquet",
+                "state": "active",
+                "media_type": "",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (parquet)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "parquet",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": null,
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2024-01-23T12:36:48.222823",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/parquet",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 2,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/json",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "beac19ff-c4a0-4fd9-860a-6783a1875552",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "json",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "json",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/json",
+                "state": "active",
+                "media_type": "application/json",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (json)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "JSON",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "json",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": "application/json",
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2022-02-28T11:05:50.735631",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/json",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 3,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/csv?use_labels=true",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "9100ac06-c200-437f-8107-baeb61d86b7f",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "csv",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "csv",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/csv?use_labels=true",
+                "state": "active",
+                "media_type": "text/csv",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (csv)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "CSV",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "csv",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": null,
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2024-08-08T11:38:01.520723",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/csv?use_labels=true",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 4,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/turtle",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "54d7c5d4-8a55-4aa1-9bc7-8eeebe9668f4",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "turtle",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "turtle",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/turtle",
+                "state": "active",
+                "media_type": "text/turtle",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (turtle)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "RDF Turtle",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "turtle",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": "text/turtle",
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2023-08-31T11:02:11.309398",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/turtle",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 5,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/n3",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "884a634e-4e36-43f9-817c-259fc0189e08",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "n3",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "n3",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/n3",
+                "state": "active",
+                "media_type": "text/n3",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (n3)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "N3",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "n3",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": "text/n3",
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2023-08-31T11:02:11.309402",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/n3",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 6,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/rdfxml",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "07ceb961-90cb-4639-a819-e7563e75323a",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "rdfxml",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "rdfxml",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/rdfxml",
+                "state": "active",
+                "media_type": "application/rdf+xml",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (rdfxml)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "RDF XML",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "rdfxml",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": "application/rdf+xml",
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2023-08-31T11:02:11.309403",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/rdfxml",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 7,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/jsonl",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "ebdb1e03-b3cd-4ecc-abfc-2addab610186",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "jsonl",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "jsonl",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/jsonl",
+                "state": "active",
+                "media_type": "application/json",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (jsonl)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "JSON",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "jsonl",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": "application/json",
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2023-08-31T11:02:11.309390",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/jsonl",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 8,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            },
+            {
+                "byte_size": 0,
+                "cache_last_updated": null,
+                "issued": "2020-06-29T00:00:00",
+                "uri": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/xls?use_labels=true",
+                "package_id": "037c082d-f03a-4f10-b057-0af42671356c",
+                "temporal_resolution": "",
+                "datastore_contains_all_records_of_source_file": false,
+                "datastore_active": false,
+                "id": "c34acf84-ce85-4db3-86b8-776af1ee3a94",
+                "size": null,
+                "rights": "NonCommercialAllowed-CommercialAllowed-ReferenceRequired",
+                "display_name": {
+                    "fr": "",
+                    "de": "xls",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "",
+                    "de": "xls",
+                    "en": "",
+                    "it": ""
+                },
+                "download_url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/xls?use_labels=true",
+                "state": "active",
+                "media_type": "application/vnd.ms-excel",
+                "hash": "",
+                "description": {
+                    "fr": "",
+                    "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton) (xls)",
+                    "en": "",
+                    "it": ""
+                },
+                "format": "XLS",
+                "language": [
+                    "de"
+                ],
+                "mimetype_inner": null,
+                "url_type": null,
+                "name": {
+                    "fr": "",
+                    "de": "xls",
+                    "en": "",
+                    "it": ""
+                },
+                "mimetype": null,
+                "cache_url": null,
+                "license": "CC By 4.0",
+                "access_services": [],
+                "created": "2024-08-08T11:38:01.520739",
+                "url": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3/exports/xls?use_labels=true",
+                "documentation": [],
+                "modified": "2024-04-30T14:26:40.904000+00:00",
+                "last_modified": null,
+                "position": 9,
+                "revision_id": "f945c6da-54fa-47e3-98cf-4fbfb9d428ac",
+                "resource_type": null
+            }
+        ],
+        "num_resources": 10,
+        "description": {
+            "fr": "",
+            "de": "Der Datensatz beinhaltet den Gesamtenergieverbrauch nach Energieträgern im Kanton Thurgau  ab dem Jahr 2015.Der Gesamtenergieverbrauch umfasst den Verbrauch in den Sektoren Gebäude, Industrie/Gewerbe, Verkehr, Landwirtschaft und Abfall auf dem Gebiet des Kantons Thurgau. Nicht berücksichtigt ist der Elektrizitätsverbrauch der Bahnen (SBB).Datenquelle: Amt für Energie",
+            "en": "",
+            "it": ""
+        },
+        "tags": [
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "abfall",
+                "id": "536479e5-b70a-418a-8d07-fc08004a674c",
+                "name": "abfall"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "abwarme",
+                "id": "496b2cf4-7fe5-490f-9738-3ba9309456ec",
+                "name": "abwarme"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "biogas",
+                "id": "6250f174-9c56-4dfc-b68c-9373178a965c",
+                "name": "biogas"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "biomasse",
+                "id": "e45e761f-34d8-40cf-aad2-2a7ff755b1b3",
+                "name": "biomasse"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "elektrizitat",
+                "id": "f2c287e3-f6cc-4f29-b310-d3730858677c",
+                "name": "elektrizitat"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "energiestatistik",
+                "id": "f0bd9a00-35cb-4e37-becd-06183db218b6",
+                "name": "energiestatistik"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "energietrager",
+                "id": "c64cfd00-b5be-479a-8573-fbaf99dd8fd0",
+                "name": "energietrager"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "energieverbrauch",
+                "id": "3b78eede-5f37-4988-b040-d46055401fec",
+                "name": "energieverbrauch"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "erdgas",
+                "id": "9203cf45-0417-4a37-9ca4-50e92dd4a8d6",
+                "name": "erdgas"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "erdol",
+                "id": "de571274-5888-4d46-b367-f09ea997a239",
+                "name": "erdol"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "fernwarme",
+                "id": "9691c5bc-d4c0-48bf-98c1-d36d499a5ae0",
+                "name": "fernwarme"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "gebaude",
+                "id": "0b90ed6b-ae88-42a2-bfc4-5028a2c1d249",
+                "name": "gebaude"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "gesamtenergieverbrauch",
+                "id": "6a60484a-317c-4b3c-b8cc-40f1fff226a9",
+                "name": "gesamtenergieverbrauch"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "gewerbe",
+                "id": "11533c4a-0573-4c29-a7f2-0a82987e9630",
+                "name": "gewerbe"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "holzenergie",
+                "id": "867d127b-d12a-4649-bebf-cb614190714e",
+                "name": "holzenergie"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "industrie",
+                "id": "c549274a-c74f-449d-b9f4-0b63ced17605",
+                "name": "industrie"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "landwirtschaft",
+                "id": "89f4b3ee-0e99-44ea-88c0-c3610c15848d",
+                "name": "landwirtschaft"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "sonne",
+                "id": "0cf33b42-3444-4398-b8af-f78a00fad25e",
+                "name": "sonne"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "umweltwarme",
+                "id": "18c749a0-1ebc-45bd-ab32-cf4bb64d96de",
+                "name": "umweltwarme"
+            },
+            {
+                "vocabulary_id": null,
+                "state": "active",
+                "display_name": "verkehr",
+                "id": "6c3cad7a-c399-4448-9a8b-cff3500f55bb",
+                "name": "verkehr"
+            }
+        ],
+        "spatial": "",
+        "groups": [
+            {
+                "display_name": {
+                    "fr": "Énergie",
+                    "de": "Energie",
+                    "en": "Energy",
+                    "it": "Energia"
+                },
+                "description": {
+                    "fr": "",
+                    "de": "",
+                    "en": "",
+                    "it": ""
+                },
+                "title": {
+                    "fr": "Énergie",
+                    "de": "Energie",
+                    "en": "Energy",
+                    "it": "Energia"
+                },
+                "image_display_url": "",
+                "id": "f6a373cb-993f-4a8e-af25-65cdf81e1cab",
+                "name": "ener"
+            }
+        ],
+        "creator_user_id": "af084126-f711-4016-a585-70354e997796",
+        "display_name": {
+            "fr": "",
+            "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton)",
+            "en": "",
+            "it": ""
+        },
+        "relationships_as_subject": [],
+        "publisher": {
+            "url": "https://data.tg.ch/explore/?refine.dcat_ap_ch.domain=kanton-thurgau",
+            "name": "kanton-thurgau"
+        },
+        "organization": {
+            "display_name": {
+                "fr": "Canton de Thurgovie",
+                "de": "Kanton Thurgau",
+                "en": "Canton of Thurgau",
+                "it": "Cantone di Turgovia"
+            },
+            "description": {
+                "fr": "",
+                "en": "",
+                "de": "Der Kanton Thurgau veröffentlicht hier schrittweise OGD-Datensätze der kantonalen Verwaltung.",
+                "it": ""
+            },
+            "image_display_url": "https://ckan.opendata.swiss/uploads/group/logo-kanton-thurgau.png",
+            "url": "https://ogd.tg.ch",
+            "package_count": 312,
+            "created": "2017-07-06T12:52:18.420117",
+            "name": "kanton-thurgau",
+            "is_organization": true,
+            "state": "active",
+            "image_url": "https://ckan.opendata.swiss/uploads/group/logo-kanton-thurgau.png",
+            "revision_id": "2940ed19-5815-4cb6-83a5-e2901eb28ad2",
+            "groups": [],
+            "type": "organization",
+            "title": {
+                "fr": "Canton de Thurgovie",
+                "de": "Kanton Thurgau",
+                "en": "Canton of Thurgau",
+                "it": "Cantone di Turgovia"
+            },
+            "political_level": "canton",
+            "num_followers": 0,
+            "id": "cace5d4d-650b-4196-9cc8-56a8595560cd",
+            "tags": [],
+            "approval_status": "approved"
+        },
+        "name": "gesamtenergieverbrauch-nach-energietragern-ebene-kanton",
+        "language": [],
+        "accrual_periodicity": "http://publications.europa.eu/resource/authority/frequency/ANNUAL",
+        "owner_org": "cace5d4d-650b-4196-9cc8-56a8595560cd",
+        "modified": "2024-04-30T14:26:40.904000+00:00",
+        "url": "https://data.tg.ch/explore/dataset/div-energie-3/",
+        "extras": [
+            {
+                "value": "div-energie-3@kanton-thurgau",
+                "key": "guid"
+            },
+            {
+                "value": "https://data.tg.ch/api/v2/catalog/datasets/div-energie-3",
+                "key": "uri"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "79182001-bee2-4889-b981-1a4d76cad9db"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "7aa27a0d-54bf-44da-9814-5e44cd5f7790"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "TG-Kt DCAT Harvester"
+            }
+        ],
+        "title": {
+            "fr": "",
+            "de": "Gesamtenergieverbrauch nach Energieträgern (Ebene Kanton)",
+            "en": "",
+            "it": ""
+        },
+        "revision_id": "5e0c24d7-2efa-40b8-94d6-6529b8bc6079",
+        "identifier": "div-energie-3@kanton-thurgau"
+    }
+}
