@@ -1,0 +1,64 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/postgres
+{
+	"name": "Python 3 & PostgreSQL",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"features": {
+		"ghcr.io/devcontainers/features/rust:1": {
+			"version": "latest",
+			"profile": "complete",
+			"targets": "aarch64-unknown-linux-gnu"
+		}
+	},
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// This can be used to network with other containers or the host.
+	// "forwardPorts": [5000, 5432],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh",
+	// Configure tool-specific properties.
+	"customizations": {
+		// Configure properties specific to VS Code.
+		"vscode": {
+			// Add the IDs of extensions you want installed when the container is created.
+			"extensions": [
+				"fill-labs.dependi",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-pg",
+				"ms-vscode.vscode-node-azure-pack",
+				"GitHub.copilot",
+				"GitHub.copilot-chat",
+				"ms-toolsai.jupyter",
+				"ms-azuretools.vscode-docker",
+			],
+			"sqltools.connections": [
+				{
+					"name": "Local database",
+					"driver": "PostgreSQL",
+					"server": "localhost",
+					"port": 5432,
+					"database": "postgres",
+					"username": "postgres",
+					"password": "postgres"
+				},
+				{
+					"name": "Azure database",
+					"driver": "PostgreSQL",
+					"server": "<HOSTNAME>.postgres.database.azure.com",
+					"port": 5432,
+					"database": "postgres",
+					"username": "<USERNAME>",
+					"askForPassword": true,
+					"pgOptions": {
+						"ssl": true
+					}
+				}
+			]
+		}
+	}
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
